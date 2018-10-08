@@ -6,23 +6,198 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-e2bb498c.css" rel="stylesheet" />
+    <title>Bob logement</title>
+    <link href="stylesheets/application-c1a6711b.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="images/favicon-2064a7dd.png" rel="icon" type="image/png" />
   </head>
   <body>
-    <div id="home">
-  <div class="home-content">
-    <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" />
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <a href="about.html">More about this template</a>
-    </p>
+    <div class="navbar-wagon">
+  <!-- Logo -->
+  <div class="logo-name">
+    <a href="/" class="navbar-wagon-brand">
+      <img src="images/logo_gris-50fe4571.png" id="logo" alt="Logo gris" />
+    </a>
+    <!-- <p id="project-logo-name">Bob logement</p> -->
+    <a href="/" id="project-logo-name">Bob logement</a>
+  </div>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">C'est quoi ?</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Partager</a>
+    <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a> -->
+
+    <!-- Profile picture with dropdown list -->
+    <!-- <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div> -->
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 
+    <div id="home">
+  <!-- <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Consommer moins et mieux</h1>
+    <h4>Tu veux réduire simplement tes factures d'énergie ?</h4>
+    <a class="btn btn-primary btn-lg">Inscription</a>
+    <p class="about">
+    </p>
+  </div>
+</div> -->
+
+<div class="banner" >
+  <div class="banner-content">
+    <h1>Consommer moins et mieux</h1>
+    <h4>Tu veux réduire simplement tes factures d'énergie ?</h4>
+    <!-- <a class="btn btn-primary btn-lg">Inscription</a> -->
+    <p class="about">
+      <a href="about.html">More about this template</a>
+    </p>
+
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:20px Dosis,Helvetica,sans-serif; width:100%;}
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+      <form action="https://linkedin.us19.list-manage.com/subscribe/post?u=dc097760ceec18b528253532b&amp;id=a04cde6fca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_dc097760ceec18b528253532b_a04cde6fca" tabindex="-1" value="">
+          </div>
+          <div class="clear">
+            <input type="submit" value="Inscription" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+
+  </div>
+</div>
+
+  <section class="what">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 text-justify">
+        <div class="what-text">
+          <p>Bob logement, une plateforme <strong>gratuite</strong> qui utilise les données et l'intelligence artificielle afin de fournir des <strong>conseils personnalisés</strong> pour réduire ses factures et améliorer son <strong>confort</strong>.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 text-justify">
+        <div class="what-text">
+          <p>L'objectif est de permettre à tous de bénéficier d'un <strong>accompagnement sur mesure</strong> en utilisant les algorithmes pour identifier les meilleures <strong>solutions adaptées</strong> à chaque situation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="how">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Ton assistant <strong>personnalisé</strong> aux économies d'énergie et à la réduction des factures.</h2>
+        <h4>Un peu de datas, du bon sens et des solutions très simples à mettre en oeuvre !</h4>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-lg-4 text-center">
+        <div class="info-card">
+          <img src="images/analyse_vert-9862068c.png" class="img-how" alt="Analyse vert" />
+          <h3>Analyse</h3>
+          <div class="info-text">
+            <p>Etude de ta situation grâce à un diagnostic en ligne détaillé des consos de ton logement et à partir de données publiques disponibles.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-lg-4 text-center">
+        <div class="info-card">
+          <img src="images/exploration_vert-6578926c.png" class="img-how" alt="Exploration vert" />
+          <h3>Exploration</h3>
+          <div class="info-text">
+            <p>Sélectionner les actions concrètes les plus pertinentes à engager pour toi parmi la multitude de possibilités qui existent.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-lg-4 text-center">
+        <div class="info-card">
+          <img src="images/accompagnement_vert-cf9851ed.png" class="img-how" alt="Accompagnement vert" />
+          <h3>Accompagnement</h3>
+          <div class="info-text">
+            <p>Concrétiser chacune des solutions sélectionnées ensemble et en mesurer les économies sur les factures.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <section class="examples">
+  <p>#section_examples</p>
+</section>
+
+  <section class="values">
+  <p>#section_values</p>
+</section>
+
+</div>
+
+    <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-xs-12 text-center">
+        <div class="footer-copyright">
+          <i class="far fa-copyright"></i> Bob logement
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- inject layouts/_footer.html.erb -->
   </body>
 </html>
